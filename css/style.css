@@ -1,0 +1,288 @@
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+/* MENU */
+.logo2 {
+  display: none;
+}
+
+.menu {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.botonContact {
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+  background-color: #1E3684;
+  color: white;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+/* MAIN */
+#imagen1 {
+  background-image: url("../imagenes/imagen1.jpg");
+  background-repeat: no-repeat;
+  border: solid 15px white;
+}
+
+#cajaPrincipal {
+  background: #1E3684;
+  height: 500px;
+  width: 650px;
+  padding: 100px;
+}
+
+.textoPrincipal {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-align: start;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.subtextoPrincipal {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-align: start;
+  font-size: 18px;
+}
+
+.botonPrincipal {
+  background: #B69F88;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.imagenesSegundaSeccion {
+  width: 70px;
+  height: 70px;
+}
+
+.fuentesSegundaSeccion {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+.tercerSeccion {
+  padding: 140px;
+  margin-left: 200px;
+}
+
+#imagen2 {
+  background-image: url("../imagenes/imagen2.jpg");
+  background-repeat: no-repeat;
+  border: solid 15px white;
+}
+
+.textoTercerSeccion {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+}
+
+.subtextoTercerSeccion {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+.imagenesCuartaSeccion {
+  width: 600px;
+  height: 500px;
+}
+
+.textoQuintaSeccion {
+  font-family: 'Inter', sans-serif;
+  color: #B69F88;
+  font-size: 100px;
+  margin-left: 80px;
+}
+
+.subtextoQuintaSeccion {
+  font-family: 'Inter', sans-serif;
+  color: #B69F88;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.quintaSeccion {
+  margin-left: 270px;
+  padding: 50px;
+}
+
+.sextaSeccion {
+  padding: 150px;
+}
+
+.imagenesSextaSeccion {
+  width: 777px;
+  margin-top: 0%;
+  height: 685px;
+}
+
+#imagen7 {
+  background-image: url("../imagenes/imagen7.jpg");
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#imagen7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1E3684;
+  opacity: 0.9;
+}
+
+.textoSextaSeccion {
+  position: relative;
+}
+
+.numeroSextaSeccion {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+#cajaSeptimaSeccion {
+  background-color: #1E3684;
+}
+
+.textoSeptimaSeccion {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 60px;
+}
+
+.subtextoSeptimaSeccion {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.imagenesSeptimaSeccion {
+  height: 700px;
+  width: 777px;
+}
+
+.septimaSeccion {
+  padding: 25px;
+  margin-left: 140px;
+}
+
+.formularioSeptimaSeccion {
+  margin-left: 53px;
+}
+
+.imagenesOctavaSeccion {
+  width: 195px;
+  height: 70px;
+}
+
+.textoOctavaSeccion {
+  font-family: 'Inter', sans-serif;
+}
+
+.subtextoOctavaSeccion {
+  color: #B69F88;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .logo1 {
+    display: none;
+  }
+  .logo2 {
+    display: -ms-grid;
+    display: grid;
+  }
+  #cajaPrincipal {
+    height: 320px;
+    width: 280px;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .textoPrincipal {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .subtextoPrincipal {
+    font-size: 11px;
+  }
+  .botonPrincipal {
+    font-size: 13px;
+  }
+  .fuentesSegundaSeccion {
+    font-size: 16px;
+  }
+  .subtextoTercerSeccion {
+    font-size: 12px;
+  }
+  .textoTercerSeccion {
+    font-size: 17px;
+  }
+  .tercerSeccion {
+    padding: 40px;
+    margin-left: 0%;
+  }
+  .textoQuintaSeccion {
+    margin-top: 0%;
+    font-size: 60px;
+    margin-left: 6px;
+  }
+  .subtextoQuintaSeccion {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+  .quintaSeccion {
+    margin-left: 6px;
+  }
+  #imagen6 {
+    display: none;
+  }
+  .numeroSextaSeccion {
+    font-size: 12px;
+  }
+  .sextaSeccion {
+    padding: 44px;
+  }
+  .textoSextaSeccion {
+    margin-left: 13px;
+  }
+  .imagenesSextaSeccion {
+    height: 299px;
+  }
+  #imagen8 {
+    display: none;
+  }
+  .septimaSeccion {
+    padding: 5px;
+    margin-left: 25px;
+  }
+  .textoSeptimaSeccion {
+    font-size: 25px;
+  }
+  .subtextoSeptimaSeccion {
+    font-size: 12px;
+  }
+  .imagenesSeptimaSeccion {
+    height: 550px;
+  }
+  .form-control {
+    font-size: 13px;
+  }
+  .formularioSeptimaSeccion {
+    margin-left: 26px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
